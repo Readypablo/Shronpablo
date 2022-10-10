@@ -1,0 +1,323 @@
+*{
+font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+body{
+  margin: 0px;
+}
+
+header{
+  position: fixed;
+  z-index: 1000;
+
+  width: 100%;
+  height: 8vh;
+  padding-left: 2vw;
+  padding-right:2vw;
+  display: flex;
+  background: white;
+  vertical-align:middle;
+border-bottom:1px solid #919191;
+
+font-size: calc(1vw + 3px);
+justify-content: center;
+}
+
+.main-content
+{
+display: flex;
+flex-direction: column;
+width: 100%;
+position: absolute;
+z-index: 1;
+height:auto;
+
+  background: #f0f0f0;
+top:57vh;
+
+
+}
+
+#logo-foto{
+  width: 8vw;
+  height: 8vh;
+}
+
+#menu-header-logo{
+  padding-bottom: 1vh;
+  padding-left: 0vw;
+  padding-right:3vw;
+  justify-content: center;
+  vertical-align:middle;
+ display: block;
+}
+#silk-header{
+text-decoration: none;
+color: black;
+
+}
+
+#silk-header:hover{
+color: white;
+}
+
+.menu-header{
+  padding-top: 1vh;
+  padding-left: 3vw;
+  padding-right:3vw;
+  justify-content: center;
+  vertical-align:middle;
+  transition: 1s;
+
+}
+
+
+#header-menu-name{
+    padding-left: 20vw;
+     justify-content: center;
+  vertical-align:middle;
+}
+
+.menu-header:hover {
+  background: red ;
+
+}
+
+
+#mark-foto-back{
+  
+width: 100%;
+z-index: -10;
+position: fixed;
+
+
+}
+
+.menu-header1{
+    padding-top: 1vh;
+    margin-left: 0.5vw;
+    text-align: left;
+ 
+  transition: 1s;
+  width: auto;
+}
+
+
+.top-menu:hover .bot-menu{
+  display: block;
+  transition: 1s;
+}
+.bot-menu{
+  width: auto;
+  height:auto;
+  background: #f03737;
+  padding-top: 0.5vh;
+  margin: 0;
+  display: none;
+  transition: 1s;
+list-style-type: none;
+justify-content: center;
+padding: 10px;
+border-radius: 10%;
+}
+.top-menu
+{
+  padding-inline-start: 0px;
+  list-style-type: none;
+  display: none;
+}
+
+
+
+
+
+.vvod-info{
+
+  font-size: 20px;
+  padding-top: 6vh;
+  padding-bottom: 2vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+.modul-karta{
+
+   justify-content: center;
+  text-align: center;
+  margin-top: 4vh;
+}
+#karta{
+  justify-content: center;
+  text-align: center;
+}
+#text-karta{
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  color: #FD4848;
+  margin-bottom: 3vh;
+}
+
+
+.modul-uslug{
+  margin-top: 8vh;
+  margin-left: 8vw;
+}
+#text-uslug{
+  text-align: left;
+  font-size: 40px;
+  color: #FD4848;
+  margin-bottom: 1vh;
+}
+.spisok-number{
+   text-align: left;
+padding-left: 2vw;
+  font-size: 20px;
+  color: #FD4848;
+  margin-top: 1vh;
+}
+.spisok-number-text{
+  margin-left: 6vw;
+    text-align: left;
+    justify-content: center;
+    width: 80%;
+}
+
+
+.silka-foot{
+  text-decoration: none;
+  color: #b0b0b0;
+}
+.silka-foot:hover{
+  color: black;
+}
+
+#text-pogoda{
+    justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  color: #FD4848;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+#pogoda{
+  justify-content: center;}
+#ms-informer-link-800cc6f3546f92ef32ffd7fe9a2ce8d3{
+  text-decoration: none;
+
+}
+
+.spisok-number1{
+   text-align: left;
+padding-left: 2vw;
+  font-size: 30px;
+  color: #FD4848;
+  margin-top: 1vh;
+}
+
+
+footer{
+  width: 100%
+  margin:0;
+  margin-top: 10vh;
+  height: 20vh;
+  background: #525252;
+  display: flex;
+  justify-content: center;
+}
+
+#logo-footer{
+ width: 8vw;
+  height: 9vh;
+  opacity: 0.8;
+}
+.footer-block{
+  margin-top: 3vh;
+margin-left: 10vw;
+margin-right: 5vw;
+justify-content: center;
+display: flex;
+flex-direction: column;
+ line-height:1.8;
+ color: #b0b0b0;
+ opacity: 0.7;
+}
+.footer-block-log{
+  margin-top: 3vh;
+  padding-top: 2vh;
+margin-right: 3vw;
+justify-content: center;
+}
+
+
+
+
+
+@media screen and (max-width: 800px){
+  #menu-header-logo{
+    display: none;
+  }
+   header{
+    font-size: calc(1vw + 1vh);
+    justify-content: left;
+    padding: 0px;
+  }
+  #header-menu-name{
+        padding-left: 12vw;
+  }
+
+#mark-foto-back{
+  height: 40%;
+}
+
+.main-content{
+top:36vh;
+}
+.vvod-info{
+  font-size: 15px;
+}
+#text-karta{
+  display: none;
+}
+
+#karta{
+
+  height: 200px;
+}
+
+.footer-block-log{
+display: none;
+}
+.footer-block{
+  font-size: 10px;
+}
+.top-menu{
+  display: block;
+}
+.menu-header{
+display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
